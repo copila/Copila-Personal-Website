@@ -78,6 +78,7 @@ h2{
 .personal_interests{
 	height: 1300px;
 	 background-color:rgba(0,0,0,0.7);
+	 -khtml-opacity: 0.7;
 	 /*background-color:rgba(255,255,255,0.7);*/
 	  box-sizing:border-box;
 	  width: 100%;
@@ -87,6 +88,7 @@ h2{
 .academics{
 	height: 600px;
   background-color:rgba(0,0,0,0.7);
+  -khtml-opacity: 0.7;
   box-sizing:border-box;
   width: 100%;
 	
@@ -95,6 +97,7 @@ h2{
 .work{
 	height:500px;
 	 background-color:rgba(0,0,0,0.7);
+	 -khtml-opacity: 0.7;
 	  box-sizing:border-box;
 	  width: 100%;
 	
@@ -103,6 +106,7 @@ h2{
 .photo{
 	height: 1000px;
 	  background-color:rgba(0,0,0,0.7);
+	  -khtml-opacity: 0.7;
 	  box-sizing:border-box;
 	  width: 100%;
 	
