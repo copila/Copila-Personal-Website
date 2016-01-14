@@ -1,43 +1,110 @@
 body {
 /*	background: black; */
-/*	color: white;*/
-	background: #DCDCDC;
+	color: white;
+	/*background: #DCDCDC;*/
+	background: #000000;
 	border: 0;
 	margin: 0;
-	font-family: Arial;
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
 
 }
 
 h1 {
-	margin:0;
-	padding-top: 40px;
-	padding-bottom: 10px;
+	
+
 
 }
 
+#greeting{
+	margin:0px;
+/*	padding-top: 40px;*/
+	box-sizing:border-box;
+	width: 40%;
+	padding-left: 80px;
+	height: 40px;
+	padding-top: 10px;
+	font-weight: semi-bold;
+	float:left;
+}
+
+#header-blurb{
+	box-sizing: border-box;
+	width: 80%;
+	padding-left: 80px;
+	padding-bottom: 20px;
+	font-size: 24px;
+
+}
+
+#nav-bar{
+	float:right;
+	box-sizing:border-box;
+	width: 60%;
+	height: 40px;
+	padding-top: 10px;
+	font-weight: semi-bold;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 40px;
+
+}
+
+.nav{
+	box-sizing:border-box;
+	text-align:center;
+	width: 130px;
+	float:right;
+	font-weight:lighter;
+}
+
+nav{
+	box-sizing:border-box;
+	height: 50px;
+}
+
+#wrapper{
+	box-sizing:border-box;
+	width: 100%;
+}
+
+
+h2{
+	padding-bottom: 10px;
+}
+
+
 .personal_interests{
 	height: 1300px;
-	 background-color:rgba(255,255,255,0.7);
+	 background-color:rgba(0,0,0,0.7);
+	 /*background-color:rgba(255,255,255,0.7);*/
+	  box-sizing:border-box;
+	  width: 100%;
 	
 }
 
 .academics{
 	height: 600px;
-	  background-color:rgba(255,255,255,0.7);
+  background-color:rgba(0,0,0,0.7);
+  box-sizing:border-box;
+  width: 100%;
 	
 }
 
 .work{
 	height:500px;
-	 background-color:rgba(255,255,255,0.7);
+	 background-color:rgba(0,0,0,0.7);
+	  box-sizing:border-box;
+	  width: 100%;
 	
 }
 
 .photo{
 	height: 1000px;
-	  background-color:rgba(255,255,255,0.7);
+	  background-color:rgba(0,0,0,0.7);
+	  box-sizing:border-box;
+	  width: 100%;
 	
 }
 
@@ -71,9 +138,8 @@ p{
 	float: left; color: rgb(255,255,255); font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; 
 }*/
 
-h1:first-letter { 
-	/*float: left;*/ color: black; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 2px; padding-left: 3px; font-family: Georgia; 
-}
+h2:first-letter { 
+	/*float: left;*/ color: white; font-size: 60px; line-height: 60px; padding-top: 4px; padding-right: 0px; padding-left: 3px; font-family: 'Josefin Sans', sans-serif;}
 
 #greeting{
 	padding: 40px;
@@ -107,7 +173,7 @@ h4:hover{
 */
 
 a{
-	color: black;
+	color: #63D1F4;
 	font-weight: bold;
 }
 
@@ -116,14 +182,48 @@ a:hover {
 }
 
 .text{
-	padding-right: 10px;
-	padding-left:100px;
+	box-sizing: border-box;
+	width: 80%;
+	padding-left: 80px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+/*	padding-right: 25%;
+	padding-left:5%;*/
+}
+
+.project-link{
+	box-sizing: border-box;
+	width: 80%;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#photo-header{
+	box-sizing: border-box;
+	width: 80%;
+	padding-left: 80px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 #photo_div{
-	padding-right:110px;
-	padding-left:110px;
+	width: 90%;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
 }
+
+.clearfix {
+  .clearfix:after
+      content: " ";
+      display: table;
+      clear: both;
+}
+
+
+
+
 
 
 
