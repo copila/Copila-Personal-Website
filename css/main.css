@@ -221,6 +221,128 @@ a:hover {
       clear: both;
 }
 
+@media all and (max-width: 650px){
+  #nav-bar{
+    width:100%;
+    float:none;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:3200px;
+ 	}
+ 	.academics{
+ 		height:1000px;
+ 	}
+
+ 	.work{
+ 		height:1000px;
+ 	}
+
+ 	.photo{
+ 		height:2200px;
+ 	}
+
+
+}
+
+
+  /* @media all and (max-width: 1860px){
+        #options-container{
+      margin-left: 23%;
+      margin-right: 23%;
+      }
+     }
+     
+     @media all and (max-width: 1750px){
+        #options-container{
+      margin-left: 20%;
+      margin-right: 20%;
+      }
+     }*/
+
+      
+
+
+ @media all and (max-width: 1132px){
+ 
+
+    #nav-bar{
+    width:100%;
+    float:none;
+    text-align: left;
+    padding-top: -20px;
+    margin-left: -20px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -20px;
+   }
+
+ 	.personal_interests{
+ 		height:2000px;
+ 	}
+ 	.academics{
+ 		height: 700px;
+ 	}
+
+ 	.work{
+ 		height:600px;
+ 	}
+
+ 	.photo{
+ 		height:1500px;
+ 	}
+
+
+}
+  
+
+  @media all and (max-width: 869px){
+  #nav-bar{
+    width:100%;
+    float:none;
+    text-align: left;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:3000px;
+ 	}
+ 	.academics{
+ 		height:800px;
+ 	}
+
+ 	.work{
+ 		height:800px;
+ 	}
+
+ 	.photo{
+ 		height:2000px;
+ 	}
+  }
+
+    @media all and (max-width: 1130px){
+      #descriptionContainer{
+        padding-bottom: 50px;
+      }
+    }
+
+
 
 
 
