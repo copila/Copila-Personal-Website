@@ -11,18 +11,13 @@ body {
 
 }
 
-h1 {
-	
-
-
-}
 
 #greeting{
 	margin:0px;
 /*	padding-top: 40px;*/
 	box-sizing:border-box;
 	width: 40%;
-	padding-left: 80px;
+	padding-left: 100px;
 	height: 40px;
 	padding-top: 10px;
 	font-weight: semi-bold;
@@ -33,12 +28,12 @@ h1 {
 	box-sizing: border-box;
 	width: 80%;
 	padding-left: 80px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	font-size: 24px;
 
 }
 
-#nav-bar{
+#nav-bar-right{
 	float:right;
 	box-sizing:border-box;
 	width: 60%;
@@ -46,17 +41,40 @@ h1 {
 	padding-top: 10px;
 	font-weight: semi-bold;
 	text-align: right;
-	padding-right: 5px;
+	padding-right: 30px;
 	padding-top: 40px;
 
+}
+
+.nav2{
+	box-sizing:border-box;
+	text-align:center;
+	width: 80px;
+	float:right;
+	font-weight:lighter;
 }
 
 .nav{
 	box-sizing:border-box;
 	text-align:center;
 	width: 130px;
-	float:right;
+	float:left;
 	font-weight:lighter;
+}
+
+#nav-bar-bottom{
+/*	float:left;*/
+	box-sizing:border-box;
+	width: 100%;
+	height: 40px;
+/*	padding-top: 10px;*/
+	font-weight: semi-bold;
+	text-align: center;
+/*	padding-right: 20px;*/
+/*	padding-top: 40px;*/
+	padding-left: 80px;
+	padding-bottom: 35px;
+
 }
 
 nav{
@@ -86,7 +104,7 @@ h2{
 }
 
 .academics{
-	height: 600px;
+	height: 700px;
   background-color:rgba(0,0,0,0.7);
   -khtml-opacity: 0.7;
   box-sizing:border-box;
@@ -225,8 +243,70 @@ a:hover {
       clear: both;
 }
 
-@media all and (max-width: 650px){
-  #nav-bar{
+@media all and (max-width: 200px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:8000px;
+ 	}
+ 	.academics{
+ 		height:8000px;
+ 	}
+
+ 	.work{
+ 		height:8000px;
+ 	}
+
+ 	.photo{
+ 		height:12000px;
+ 	}
+
+
+}
+
+@media all and (max-width: 300px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:4000px;
+ 	}
+ 	.academics{
+ 		height:4000px;
+ 	}
+
+ 	.work{
+ 		height:4000px;
+ 	}
+
+ 	.photo{
+ 		height:4000px;
+ 	}
+
+
+}
+
+@media all and (max-width: 500px){
+  #nav-bar-right{
     width:100%;
     float:none;
     padding-top: -10px;
@@ -242,7 +322,38 @@ a:hover {
  		height:3200px;
  	}
  	.academics{
- 		height:1000px;
+ 		height:2300px;
+ 	}
+
+ 	.work{
+ 		height:2200px;
+ 	}
+
+ 	.photo{
+ 		height:4000px;
+ 	}
+
+
+}
+
+@media all and (max-width: 650px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:3200px;
+ 	}
+ 	.academics{
+ 		height:2000px;
  	}
 
  	.work{
@@ -277,11 +388,11 @@ a:hover {
  @media all and (max-width: 1132px){
  
 
-    #nav-bar{
+    #nav-bar-right{
     width:100%;
     float:none;
     text-align: left;
-    padding-top: -20px;
+    padding-top: -40px;
     margin-left: -20px;
   }
    #greeting{
@@ -295,7 +406,7 @@ a:hover {
  		height:2000px;
  	}
  	.academics{
- 		height: 700px;
+ 		height: 800px;
  	}
 
  	.work{
@@ -311,7 +422,7 @@ a:hover {
   
 
   @media all and (max-width: 869px){
-  #nav-bar{
+  #nav-bar-right{
     width:100%;
     float:none;
     text-align: left;
@@ -328,7 +439,7 @@ a:hover {
  		height:3000px;
  	}
  	.academics{
- 		height:800px;
+ 		height:1200px;
  	}
 
  	.work{
@@ -340,11 +451,7 @@ a:hover {
  	}
   }
 
-    @media all and (max-width: 1130px){
-      #descriptionContainer{
-        padding-bottom: 50px;
-      }
-    }
+
 
 
 
