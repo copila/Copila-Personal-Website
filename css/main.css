@@ -104,7 +104,7 @@ h2{
 }
 
 .academics{
-	height: 700px;
+	height: 1300px;
   background-color:rgba(0,0,0,0.7);
   -khtml-opacity: 0.7;
   box-sizing:border-box;
@@ -113,7 +113,7 @@ h2{
 }
 
 .work{
-	height:500px;
+	height:700px;
 	 background-color:rgba(0,0,0,0.7);
 	 -khtml-opacity: 0.7;
 	  box-sizing:border-box;
@@ -174,15 +174,16 @@ h4{
 	padding-right: 20px;
 	opacity: 1.0;
 	padding-bottom: 5px;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .fancybox img{
 	height:100px;
 }
 
-h4:hover{
+.hover_header: hover{
 	color:blue;
+	text-decoration: underline;
 }
 
 /*#slide-down {
@@ -257,18 +258,18 @@ a:hover {
    }
 
  	.personal_interests{
- 		height:8000px;
+ 		height:4000000px;
  	}
  	.academics{
- 		height:8000px;
+ 		height:400000px;
  	}
 
  	.work{
- 		height:8000px;
+ 		height:400000px;
  	}
 
  	.photo{
- 		height:12000px;
+ 		height:400000px;
  	}
 
 
@@ -291,11 +292,11 @@ a:hover {
  		height:4000px;
  	}
  	.academics{
- 		height:4000px;
+ 		height:6000px;
  	}
 
  	.work{
- 		height:4000px;
+ 		height:6000px;
  	}
 
  	.photo{
@@ -322,11 +323,11 @@ a:hover {
  		height:3200px;
  	}
  	.academics{
- 		height:2300px;
+ 		height:3000px;
  	}
 
  	.work{
- 		height:2200px;
+ 		height:3000px;
  	}
 
  	.photo{
@@ -353,11 +354,11 @@ a:hover {
  		height:3200px;
  	}
  	.academics{
- 		height:2000px;
+ 		height:2200px;
  	}
 
  	.work{
- 		height:1000px;
+ 		height:2200px;
  	}
 
  	.photo{
@@ -439,7 +440,37 @@ a:hover {
  		height:3000px;
  	}
  	.academics{
- 		height:1200px;
+ 		height:2550px;
+ 	}
+
+ 	.work{
+ 		height:1800px;
+ 	}
+
+ 	.photo{
+ 		height:3000px;
+ 	}
+  }
+
+@media all and (max-width: 1000px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    text-align: left;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:3000px;
+ 	}
+ 	.academics{
+ 		height:2550px;
  	}
 
  	.work{
@@ -447,10 +478,9 @@ a:hover {
  	}
 
  	.photo{
- 		height:2000px;
+ 		height:3000px;
  	}
   }
-
 
 
 
