@@ -130,6 +130,18 @@ h2{
 	
 }
 
+.projects{
+	align-items: center;
+	 display: block;
+    margin: 0 auto;
+    text-align: center
+}
+
+img .projects {
+    display: block;
+    margin: 0 auto;
+}
+
 /* 
 .transbox {
 /*    margin: 30px;*/
