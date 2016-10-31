@@ -193,7 +193,7 @@ h4{
 	height:100px;
 }
 
-.hover_header: hover{
+h4.hover_header:hover{
 	color:blue;
 	text-decoration: underline;
 }
