@@ -169,4 +169,20 @@ $(function () {
 	
 	});
 
+	    $('.image').fancybox({
+	      padding: 0,
+	      helpers: {
+	        overlay: {
+	          locked: false
+	        }
+	      },
+	    'beforeLoad': function(){
+	      disable_scroll();
+	        },
+	     'afterClose': function(){
+	       enable_scroll();
+	      }
+    	});
+
+
 });

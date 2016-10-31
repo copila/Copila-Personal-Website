@@ -1828,22 +1828,22 @@
 		beforeShow : function(opts, obj) {
 			var scrollV, scrollH;
 
-			if (obj.locked) {
-				if (this.margin !== false) {
-					$('*').filter(function(){
-						return ($(this).css('position') === 'fixed' && !$(this).hasClass("fancybox-overlay") && !$(this).hasClass("fancybox-wrap") );
-					}).addClass('fancybox-margin');
+			// if (obj.locked) {
+			// 	if (this.margin !== false) {
+			// 		$('*').filter(function(){
+			// 			return ($(this).css('position') === 'fixed' && !$(this).hasClass("fancybox-overlay") && !$(this).hasClass("fancybox-wrap") );
+			// 		}).addClass('fancybox-margin');
 
-					this.el.addClass('fancybox-margin');
-				}
+			// 		this.el.addClass('fancybox-margin');
+			// 	}
 
-				scrollV = W.scrollTop();
-				scrollH = W.scrollLeft();
+			// 	scrollV = W.scrollTop();
+			// 	scrollH = W.scrollLeft();
 
-				this.el.addClass('fancybox-lock');
+			// 	this.el.addClass('fancybox-lock');
 
-				W.scrollTop( scrollV ).scrollLeft( scrollH );
-			}
+			// 	W.scrollTop( scrollV ).scrollLeft( scrollH );
+			// }
 
 			this.open(opts);
 		},

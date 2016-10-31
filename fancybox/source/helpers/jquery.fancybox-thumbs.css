@@ -53,3 +53,11 @@
 	padding: 0;
 	max-width: none;
 }
+
+$('.image').fancybox({
+  helpers: {
+    overlay: {
+      locked: false
+    }
+  }
+});
