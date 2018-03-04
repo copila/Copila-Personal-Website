@@ -24,9 +24,16 @@ body {
 	float:left;
 }
 
-#header-blurb{
+.header-blurb{
 	box-sizing: border-box;
 	width: 80%;
+	padding-left: 80px;
+	padding-bottom: 5px;
+	font-size: 24px;
+
+}
+.section-header-blurb{
+	box-sizing: border-box;
 	padding-left: 80px;
 	padding-bottom: 5px;
 	font-size: 24px;
@@ -92,6 +99,10 @@ h2{
 	padding-bottom: 10px;
 }
 
+h3{
+font-weight: bold;
+}
+
 
 .personal_interests{
 	height: 1300px;
@@ -104,7 +115,7 @@ h2{
 }
 
 .academics{
-	height: 1300px;
+	height: 1350px;
   background-color:rgba(0,0,0,0.7);
   -khtml-opacity: 0.7;
   box-sizing:border-box;
@@ -113,7 +124,7 @@ h2{
 }
 
 .work{
-	height:700px;
+	height:800px;
 	 background-color:rgba(0,0,0,0.7);
 	 -khtml-opacity: 0.7;
 	  box-sizing:border-box;
@@ -256,7 +267,7 @@ a:hover {
       display: table;
       clear: both;
 }
-
+/*
 @media all and (max-width: 200px){
   #nav-bar-right{
     width:100%;
@@ -286,9 +297,9 @@ a:hover {
  	}
 
 
-}
+}*/
 
-@media all and (max-width: 300px){
+@media all and (min-width: 300px){
   #nav-bar-right{
     width:100%;
     float:none;
@@ -302,24 +313,24 @@ a:hover {
    }
 
  	.personal_interests{
- 		height:4000px;
+ 		height:2400px;
  	}
  	.academics{
  		height:6000px;
  	}
 
  	.work{
- 		height:6000px;
+ 		height:2400px;
  	}
 
  	.photo{
- 		height:4000px;
+ 		height:2500px;
  	}
 
 
 }
 
-@media all and (max-width: 500px){
+@media all and (min-width: 500px){
   #nav-bar-right{
     width:100%;
     float:none;
@@ -333,24 +344,24 @@ a:hover {
    }
 
  	.personal_interests{
- 		height:3200px;
+ 		height:2200px;
  	}
  	.academics{
- 		height:3000px;
+ 		height:3100px;
  	}
 
  	.work{
- 		height:3000px;
+ 		height:2000px;
  	}
 
  	.photo{
- 		height:4000px;
+ 		height:2300px;
  	}
 
 
 }
 
-@media all and (max-width: 650px){
+@media all and (min-width: 650px){
   #nav-bar-right{
     width:100%;
     float:none;
@@ -364,22 +375,83 @@ a:hover {
    }
 
  	.personal_interests{
- 		height:3200px;
+ 		height:2000px;
  	}
  	.academics{
- 		height:2200px;
+ 		height:3050px;
  	}
 
  	.work{
- 		height:2200px;
+ 		height:1500px;
  	}
 
  	.photo{
- 		height:2200px;
+ 		height:2100px;
  	}
 
 
 }
+
+
+  @media all and (min-width: 869px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    text-align: left;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:1300px;
+ 	}
+ 	.academics{
+ 		height:3000px;
+ 	}
+
+ 	.work{
+ 		height:1200px;
+ 	}
+
+ 	.photo{
+ 		height:1800px;
+ 	}
+  }
+
+@media all and (min-width: 1000px){
+  #nav-bar-right{
+    width:100%;
+    float:none;
+    text-align: left;
+    padding-top: -10px;
+  }
+   #greeting{
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: -10px;
+   }
+
+ 	.personal_interests{
+ 		height:1500px;
+ 	}
+ 	.academics{
+ 		height:2750px;
+ 	}
+
+ 	.work{
+ 		height:1000px;
+ 	}
+
+ 	.photo{
+ 		height:1500px;
+ 	}
+  }
 
 
   /* @media all and (max-width: 1860px){
@@ -399,7 +471,7 @@ a:hover {
       
 
 
- @media all and (max-width: 1132px){
+ /*@media all and (max-width: 1132px){
  
 
     #nav-bar-right{
@@ -432,68 +504,9 @@ a:hover {
  	}
 
 
-}
+}*/
   
 
-  @media all and (max-width: 869px){
-  #nav-bar-right{
-    width:100%;
-    float:none;
-    text-align: left;
-    padding-top: -10px;
-  }
-   #greeting{
-    float: none;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: -10px;
-   }
-
- 	.personal_interests{
- 		height:3000px;
- 	}
- 	.academics{
- 		height:2550px;
- 	}
-
- 	.work{
- 		height:1800px;
- 	}
-
- 	.photo{
- 		height:3000px;
- 	}
-  }
-
-@media all and (max-width: 1000px){
-  #nav-bar-right{
-    width:100%;
-    float:none;
-    text-align: left;
-    padding-top: -10px;
-  }
-   #greeting{
-    float: none;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: -10px;
-   }
-
- 	.personal_interests{
- 		height:3000px;
- 	}
- 	.academics{
- 		height:2550px;
- 	}
-
- 	.work{
- 		height:800px;
- 	}
-
- 	.photo{
- 		height:3000px;
- 	}
-  }
 
 
 

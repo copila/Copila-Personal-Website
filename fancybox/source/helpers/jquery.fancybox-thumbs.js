@@ -158,12 +158,6 @@
 			this.width = 0;
 		}
 	}
-	('.image').fancybox({
-  helpers: {
-    overlay: {
-      locked: false
-    }
-  }
-});
+	
 
 }(jQuery));

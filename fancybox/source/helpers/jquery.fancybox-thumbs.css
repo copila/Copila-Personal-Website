@@ -54,10 +54,4 @@
 	max-width: none;
 }
 
-$('.image').fancybox({
-  helpers: {
-    overlay: {
-      locked: false
-    }
-  }
-});
+$
