@@ -107,7 +107,7 @@ font-weight: bold;
 .personal_interests{
 	height: 1300px;
 	 background-color:rgba(0,0,0,0.7);
-	/* -khtml-opacity: 0.7;*/
+	 -khtml-opacity: 0.7;
 	 /*background-color:rgba(255,255,255,0.7);*/
 	  box-sizing:border-box;
 	  width: 100%;
@@ -115,9 +115,9 @@ font-weight: bold;
 }
 
 .academics{
-	height: 1350px;
-  background-color:rgba(0,0,0,0.8);
-/*  -khtml-opacity: 0.9;*/
+	height: 800px;
+  background-color:rgba(0,0,0,0.7);
+  -khtml-opacity: 0.7;
   box-sizing:border-box;
   width: 100%;
 	
@@ -126,7 +126,7 @@ font-weight: bold;
 .work{
 	height:800px;
 	 background-color:rgba(0,0,0,0.7);
-	/* -khtml-opacity: 1;*/
+	 -khtml-opacity: .7;
 	  box-sizing:border-box;
 	  width: 100%;
 	
@@ -135,7 +135,7 @@ font-weight: bold;
 .photo{
 	height: 1000px;
 	  background-color:rgba(0,0,0,0.7);
-	 /* -khtml-opacity: 1;*/
+	  -khtml-opacity: .7;
 	  box-sizing:border-box;
 	  width: 100%;
 	
@@ -316,7 +316,7 @@ a:hover {
  		height:2400px;
  	}
  	.academics{
- 		height:6000px;
+ 		height:3000px;
  	}
 
  	.work{
@@ -347,7 +347,7 @@ a:hover {
  		height:2200px;
  	}
  	.academics{
- 		height:3100px;
+ 		height:2200px;
  	}
 
  	.work{
@@ -379,7 +379,7 @@ a:hover {
  		background-color:rgba(0,0,0,0.7);
  	}
  	.academics{
- 		height:3050px;
+ 		height:2200px;
  		background-color:rgba(0,0,0,0.7);
  	}
 
